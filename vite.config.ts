@@ -24,5 +24,4 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
-  base: '/levo-survey-client/',
 })
