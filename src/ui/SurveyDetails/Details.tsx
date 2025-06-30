@@ -133,7 +133,7 @@ export function SurveyDetails() {
                       className="bg-blue-200 px-3 py-1 rounded-md flex items-center whitespace-nowrap cursor-pointer text-sm"
                       onClick={() => {
                         window.navigator.clipboard.writeText(
-                          `${window.location.href.endsWith('/') ? window.location.href : window.location.href + '/'}`,
+                          `${window.location.href.endsWith('/') ? window.location.href : window.location.href + '/'}/take`,
                         )
                         toast.success('Copied to clipboard.')
                       }}
