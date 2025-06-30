@@ -13,14 +13,11 @@ import {
   PieChart,
   Pie,
   Cell,
-  Legend,
 } from 'recharts'
 
 interface AnalyticsProps {
   surveyId: string
 }
-
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8']
 
 export function Analytics({ surveyId }: AnalyticsProps) {
   const { data: analytics, isLoading: loadingAnalytics } = useQuery({
